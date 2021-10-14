@@ -39,8 +39,16 @@ def gen_matches(arr):
             if match_num not in match_arr and arr[match_num].name not in person.sibs:
                 match_arr.append(match_num)
                 person.match = arr[match_num].name
-                found = True
-        print(person.name + " : " + person.match)
-    
+                found = True            
 gen_matches(kids)
 gen_matches(adults)
+
+with open('pollyanna.txt', 'w') as file:
+    file.write('Pollyanna list:\n')
+    file.write('Kids:\n')
+    for kid in kids:
+        file.write(kid.name + ' has ' + kid.match + '\n')
+    file.write('Adults:\n')
+    for adult in adults:
+        file.write(adult.name + ' has ' + adult.match + '\n')
+

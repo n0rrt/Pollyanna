@@ -1,0 +1,22 @@
+Pollyanna list:
+Kids:
+Sean has Claire
+Mary has Tim
+Neve has Molly
+Brendan has Neve
+Kieran has Sean
+Bridget has Kate
+Aidan has Nora
+Tim has Kieran
+Claire has Bridget
+Molly has Aidan
+Kate has Brendan
+Nora has Mary
+Adults:
+Brian has Karen
+Lori has Tom
+Leo has Brian
+Mike has Leo
+Linda has Lori
+Tom has Mike
+Karen has Linda
